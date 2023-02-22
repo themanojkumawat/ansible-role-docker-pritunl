@@ -1,0 +1,23 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: Manoj kumawat
+  description: This ansible role is used to install Pritunl and Mongodb with docker on server.
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags:
+    - pritunl
+    - docker
+    - centos
+    - ubuntu
